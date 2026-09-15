@@ -53,32 +53,41 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+i learned how to implement responsive desktop breakpoint styling. and i was able to see the smooth transition of the containers element from column layout to row layout using flex property across various user screen sizes
 
 To see how you can add code snippets, see below:
 
 ```html
-<h3> $149.99
-       <span class="price-slash" > $169.99  </span> </h3>
+<main class="container"> 
+
+  
+
+  </main>
 ```
-```css
-.price-slash{
-    
-    font-size: 14px;
-    color: hsl(228, 12%, 48%);
-    text-decoration: line-through;
-    margin-left: 6px;
-    vertical-align: super;
-    
-}
+```@media (min-width: 768px){
+
+    .container{
+        max-width:  50rem;
+
+        font-size: 1rem;
+
+        margin-top: 5vh;
+
+        display: flex;
+
+        align-items: center;
+
+    }
+
+        
+    }
 
 ```
 
 
 ### Continued development
 
-i will try focusing on understanding css grid and media queires so my page can be responsive for all screen sizes. so when the user is using  a destop or tablet view the layout can be in a grid or row form.
-
+i will try focusing on understanding  how to also implement responsive desktop breakpointing on other design styles 
 
 
 
