@@ -125,6 +125,27 @@ h3{
 
 
 
+/* Responsive Desktop breakpoint */
+
+@media (min-width: 768px){
+
+    .container{
+        max-width:  50rem;
+
+        font-size: 1rem;
+
+        margin-top: 5vh;
+
+        display: flex;
+
+        align-items: center;
+
+        
+    }
+
+
+
+}
 
 
 
