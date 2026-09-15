@@ -119,6 +119,11 @@ h3{
 }
 
 
+.addCart-btn:hover,:focus{
+    background-color: hsl(158, 42%, 18%)    ;
+}
+
+
 
 
 
